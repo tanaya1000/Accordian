@@ -1,0 +1,29 @@
+
+.wrapper{
+display: flex;
+height: 80vh;
+width: 80vw;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.accordian{
+  width: 500px;
+
+}
+.item{
+  background: #614101;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+.title{
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.content{
+  color:#ffffff;
+  height: auto;
+}
